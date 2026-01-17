@@ -1,1 +1,2 @@
+Git is a tool that keeps a history of your code like a time machine so you can track changes and go back if you make mistakes, while GitHub is a website where you upload and store your Git projects online to share, collaborate, and keep them safe. A normal folder on your computer is just a place that holds files without remembering changes, a Git repository is that same folder after you run git init so it can track versions, and a GitHub repository is your Git repository uploaded to the internet where others can see and access it.
 
