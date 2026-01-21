@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Events Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .error {
+      color: red;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Button Click Interaction</h2>
+  <p id="message">Click the button to change this text and its color.</p>
+  <button id="changeBtn">Click Me!</button>
+
+  <hr>
+
+  <h2>Counter</h2>
+  <p id="counterDisplay">Counter: 0</p>
+  <button id="counterBtn">Increment Counter</button>
+
+  <hr>
+
+  <h2>Toggle Text/Color</h2>
+  <p id="toggleText">Text is <strong>OFF</strong></p>
+  <button id="toggleBtn">Toggle</button>
+
+  <hr>
+
+  <h2>Basic Form Validation</h2>
+  <form id="demoForm" action="#" novalidate>
+    <label for="nameInput">Name:</label>
+    <input type="text" id="nameInput" name="name"/>
+    <span id="nameError" class="error"></span>
+    <br><br>
+
+    <label for="emailInput">Email:</label>
+    <input type="email" id="emailInput" name="email"/>
+    <span id="emailError" class="error"></span>
+    <br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
